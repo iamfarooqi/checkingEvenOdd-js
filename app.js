@@ -11,9 +11,9 @@ function isEven(nums) {
     document.write("You Entered :", nums + "<br />");
 
     if (nums % 2 === 0) {
-        document.write("You Entered Even Number");
+        document.write("True");
     } else {
-        document.write("You Entered Odd Number")
+        document.write("False")
     }
 
     return false;
